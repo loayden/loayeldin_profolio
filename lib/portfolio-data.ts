@@ -99,7 +99,7 @@ export const siteConfig = {
   description:
     'Premium portfolio of Loay Eldin, a Cairo-based full-stack developer, robotics engineer, and technical educator building polished digital products and intelligent systems.',
   whatsappHref: 'https://wa.me/20114499922',
-  githubHref: 'https://github.com/loayeldin77',
+  githubHref: 'https://github.com/loayden',
   instagramHref: 'https://www.instagram.com/fr3_fdn/?__pwa=1',
   linkedinHref: 'https://linkedin.com/in/loayeldin77',
   twitterHref: 'https://twitter.com/loay_eldin',
