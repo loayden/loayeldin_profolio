@@ -18,7 +18,7 @@ type ContactPageProps = {
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Contact Loay Eldin for full-time roles, premium website builds, technical prototypes, or workshops.',
+    `Contact ${siteConfig.fullName} for full-time roles, premium website builds, technical prototypes, or workshops.`,
 };
 
 export default function ContactPage({ searchParams }: ContactPageProps) {

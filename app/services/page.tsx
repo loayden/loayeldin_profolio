@@ -4,12 +4,17 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import { PageIntro } from '@/components/site/PageIntro';
 import { Reveal } from '@/components/site/Reveal';
-import { contactOptions, processSteps, serviceTracks } from '@/lib/portfolio-data';
+import {
+  contactOptions,
+  processSteps,
+  serviceTracks,
+  siteConfig,
+} from '@/lib/portfolio-data';
 
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Explore the collaboration options Loay Eldin offers, from premium website builds to product engineering, workshops, and technical prototypes.',
+    `Explore the collaboration options ${siteConfig.fullName} offers, from premium website builds to product engineering, workshops, and technical prototypes.`,
 };
 
 export default function ServicesPage() {

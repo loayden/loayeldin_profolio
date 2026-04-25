@@ -9,7 +9,7 @@ import { experienceTimeline, siteConfig } from '@/lib/portfolio-data';
 export const metadata: Metadata = {
   title: 'Experience',
   description:
-    'A clearer timeline of Loay Eldin’s engineering, competition, and teaching experience.',
+    `A clearer timeline of ${siteConfig.fullName}'s engineering, competition, and teaching experience.`,
 };
 
 export default function ExperiencePage() {

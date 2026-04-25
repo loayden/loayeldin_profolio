@@ -44,7 +44,7 @@ export default function Navbar() {
           {/* Logo */}
           <motion.div whileHover={{ scale: 1.05 }}>
             <Link href="/" className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-gold-400 to-gold-300 bg-clip-text text-transparent font-display">
-              L.E
+              Loay Eldin
             </Link>
           </motion.div>
 

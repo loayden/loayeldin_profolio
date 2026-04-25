@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     'Next.js portfolio',
     'React developer',
     'technical educator',
-    'Cairo Egypt developer',
+    'Alexandria Egypt developer',
   ],
   authors: [{ name: siteConfig.fullName }],
   openGraph: {

@@ -93,11 +93,11 @@ export const siteConfig = {
   fullName: 'Loay Eldin Mohamed Mahmoud',
   title: 'Full-Stack Developer, Robotics Engineer, Tech Educator, and Founder of FRع',
   age: '19',
-  location: 'Cairo, Egypt',
+  location: 'Alexandria, Egypt',
   email: 'loayeldin77@gmail.com',
   phone: '+20 114 499 922',
   description:
-    'Premium portfolio of Loay Eldin, a Cairo-based full-stack developer, robotics engineer, and technical educator building polished digital products and intelligent systems.',
+    'Premium portfolio of Loay Eldin Mohamed Mahmoud, an Alexandria-based full-stack developer, robotics engineer, and technical educator building polished digital products and intelligent systems.',
   whatsappHref: 'https://wa.me/20114499922',
   githubHref: 'https://github.com/loayden',
   instagramHref: 'https://www.instagram.com/fr3_fdn/?__pwa=1',
@@ -172,6 +172,15 @@ export const focusAreas: FocusArea[] = [
 ];
 
 export const professionalProfile = {
+  keywords: [
+    'Loay Eldin Mohamed Mahmoud',
+    'full stack developer',
+    'robotics engineer',
+    'Next.js portfolio',
+    'React developer',
+    'technical educator',
+    'Alexandria Egypt developer',
+  ],
   age: '19',
   summary:
     'Full-stack developer, robotics engineer, and technical educator focused on turning ambitious ideas into clear, polished, and useful products. Combines strong frontend execution in Next.js, React, and TypeScript with hands-on robotics experience across Raspberry Pi, Arduino, Python, sensors, and computer vision. Alongside building live public websites, he has represented Egypt in international competitions, earned multiple first-place and worldwide placements, and mentored more than 100 students through workshops and project-based learning.',

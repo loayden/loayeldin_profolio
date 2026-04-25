@@ -25,7 +25,7 @@ import {
 export const metadata: Metadata = {
   title: 'Home',
   description:
-    'Premium portfolio homepage for Loay Eldin, showcasing product engineering, robotics systems, and technical education.',
+    `Premium portfolio homepage for ${siteConfig.fullName}, showcasing product engineering, robotics systems, and technical education.`,
 };
 
 export default function HomePage() {

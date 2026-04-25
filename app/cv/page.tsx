@@ -334,12 +334,12 @@ export default function CvPage() {
 
                 <div className="space-y-4">
                   <div className="flex flex-wrap items-center justify-between gap-3">
-                    <p className="caption">Selected recognition</p>
+                    <p className="caption">Selected competitions</p>
                     <Link
                       href="/competitions"
                       className="inline-flex items-center gap-2 text-sm uppercase tracking-[0.14em] text-stone-300/78 transition hover:text-white"
                     >
-                      Full recognition archive
+                      Full competition archive
                       <FontAwesomeIcon icon={faArrowRight} className="text-xs" />
                     </Link>
                   </div>
@@ -363,7 +363,7 @@ export default function CvPage() {
                     ))}
                   </div>
                   <p className="text-sm leading-7 text-stone-400">
-                    This CV shows selected milestones. The full competition record includes{' '}
+                    This CV shows selected competitions and milestones. The full competition record includes{' '}
                     {achievementRecords.length} documented entries across robotics, scientific
                     innovation, and international representation.
                   </p>

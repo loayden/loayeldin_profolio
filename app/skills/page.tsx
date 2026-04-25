@@ -4,12 +4,12 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import { PageIntro } from '@/components/site/PageIntro';
 import { Reveal } from '@/components/site/Reveal';
-import { focusAreas, skillGroups } from '@/lib/portfolio-data';
+import { focusAreas, siteConfig, skillGroups } from '@/lib/portfolio-data';
 
 export const metadata: Metadata = {
   title: 'Skills',
   description:
-    'A clear breakdown of Loay Eldin’s frontend, backend, robotics, and communication strengths.',
+    `A clear breakdown of ${siteConfig.fullName}'s frontend, backend, robotics, and communication strengths.`,
 };
 
 export default function SkillsPage() {

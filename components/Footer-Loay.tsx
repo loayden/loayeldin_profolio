@@ -34,7 +34,7 @@ export default function Footer() {
   };
 
   const socialLinks = [
-    { name: 'GitHub', href: 'https://github.com/loayeldin77', icon: faGithub, brand: true },
+    { name: 'GitHub', href: 'https://github.com/loayden', icon: faGithub, brand: true },
     { name: 'LinkedIn', href: 'https://linkedin.com/in/loayeldin77', icon: faLinkedin, brand: true },
     { name: 'Twitter', href: 'https://twitter.com/loayeldin77', icon: faTwitter, brand: true },
     { name: 'WhatsApp', href: 'https://wa.me/20114499922', icon: faWhatsapp, brand: true },
@@ -175,7 +175,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <HiMapPin className="text-gold-400 text-lg" />
-                <span className="text-neutral-400 text-sm">Cairo, Egypt</span>
+                <span className="text-neutral-400 text-sm">Alexandria, Egypt</span>
               </div>
             </div>
           </motion.div>
@@ -190,7 +190,7 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-neutral-400 text-sm">
-              © {currentYear} Loay Eldin Mohamed Mahmoud. All rights reserved.
+              © {currentYear} Loay Eldin. All rights reserved.
             </div>
             <div className="flex items-center gap-4 text-neutral-400 text-sm">
               <span>dev by FRع</span>
